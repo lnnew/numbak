@@ -14,10 +14,10 @@
   <div class="w3-center w3-container">
 <h3 style="margin-top:1em">더 자신에게 맞는 문장을 골라주세요!</h3>
 
-<button onclick="makeChoice(8)" class="w3-center animated-button" id="button8" style="margin-top:20em">
-악기를 연주하고, 음악에 숨겨진 의미를 고민해보는 게 좋아요!</button>
-      <button onclick="makeChoice(9)" class="w3-center animated-button" id="button9" style="margin-top:2em">
-여러 이야기를 읽고, 의미를 곱씹어보거나 직접 써보는 게 좋아요!
+<button onclick="makeChoice(6)" class="w3-center animated-button" id="button6" style="margin-top:20em">
+피드백이 들어오면 바로바로 내 것으로 만들어버린다!</button>
+      <button onclick="makeChoice(7)" class="w3-center animated-button" id="button7" style="margin-top:2em">
+평소 상상을 많이 하고, 나아질 구석이 있으면 꼭 말해주고 싶다.
 </button>
 <style>
     html, body {
@@ -79,7 +79,7 @@ border: 0px;
 
     // Add the animated class after button click
     document.getElementById(`button${choice + 1}`).classList.add('animated-button');
-    document.href("/"+choice);
+    document.href("/numbak/popup"+choice);
     // Add any other logic you need here
   }
  </script>
