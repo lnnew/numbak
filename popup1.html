@@ -74,14 +74,15 @@ border: 0px;
     }
   </style>
   <script>
-   function makeChoice(choice) {
-     // Your choice handling logic goes here
+  function makeChoice(choice) {
+    // Your choice handling logic goes here
 
-     // Add the animated class after button click
-     document.getElementById(`button${choice + 1}`).classList.add('animated-button');
-     document.href("/"+choice);
-     // Add any other logic you need here
-   }
+    // Add the animated class after button click
+    document.getElementById(`button${choice + 1}`).classList.add('animated-button');
+    window.location.href= "/numbak/popup"+choice;
+
+    // Add any other logic you need here
+  }
  </script>
   </div></a>
 
